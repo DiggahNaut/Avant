@@ -1,0 +1,161 @@
+@font-face {
+    font-family: DinTextRegular;
+    src: url(/src/fonts/PFDINTEXTPRO-REGULAR.ttf);
+    /*src: url(/src/fonts/PFDINTEXTPRO-BOLD.ttf);*/
+    /*src: url(/src/fonts/PFDINTEXTPRO-MEDIUM.ttf);*/
+}
+body {
+    font-family: DinTextRegular, 'Comic Sans MS', cursive !important;
+    margin: 0;
+}
+
+.avant-block-settings--color_light-blue {
+    color: #05849D;
+}
+.avant-block-settings--color_dark-blue {
+    color: #024A6E;
+}
+.avant-block-settings--divider {
+    width: 140px;
+    border: 1px solid #024A6E;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avant-block-settings--paddings {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.avant-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.avant-header__logo {
+    background: url("/src/images/Logo.png") center no-repeat;
+    width: 201px;
+    height: 80px;
+}
+.avant-header__info {
+    text-align: right;
+    width: 428px;
+}
+.avant-header__phone {
+    font-size: 34px;
+}
+.avant-other-info {
+    font-size: 18px;
+}
+.avant-other-info__email {
+    display: block;
+}
+.avant-other-info__address--text-bold {
+    font-weight: bold;
+}
+
+.avant-slider {
+    background: url("/src/images/FirstSlide.png") center no-repeat;
+    min-height: 640px;
+}
+
+.avant-services__title {
+    font-size: 40px;
+}
+.avant-services__icon-wrapper {
+    border: 1px solid #024A6E;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 40px auto 20px auto;
+}
+.avant-services__icon--weight {
+    background: url("/src/images/WeightService.png") center no-repeat;
+}
+.avant-services__icon--money {
+    background: url("/src/images/MoneyService.png") center no-repeat;
+}
+.avant-services__icon--forklift {
+    background: url("/src/images/ForkLiftService.png") center no-repeat;
+}
+.avant-services__icon--car-loader {
+    background: url("/src/images/CarLoaderService.png") center no-repeat;
+}
+.avant-services__service-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.avant-price {
+    border-top: 1px solid #024A6E;
+    border-bottom: 1px solid #024A6E;
+}
+.avant-price--background {
+    background: url("/src/images/GarbageBackground.png") center no-repeat;
+    min-height: 490px;
+}
+.avant-price__title {
+    font-size: 40px;
+}
+.avant-price--font_size-m {
+    font-size: 24px;
+}
+.avant-price__metal {
+    padding-top: 40px;
+}
+.avant-price__price {
+    color: white;
+    background-color: #024A6E;
+    border-radius: 35px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avant-public-oferta {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #024A6E;
+}
+
+.avant-map {
+    background: url("/src/images/map.png") center no-repeat;
+    min-height: 440px;
+}
+
+.avant-footer {
+    background-color: #024A6E;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.avant-footer__phones {
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 30px;
+}
+.avant-footer__phones-divider {
+    width: 50px;
+    display: inline-block;
+}
+.avant-footer__button {color: #024A6E;
+    font-size: 26px;
+    padding-top: 6px;
+    background-color: white;
+    border-radius: 35px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    font-weight: bold;
+}
+.avant-footer__ooo-info {
+    font-size: 20px;
+    line-height: 23px;
+    border-top: 1px solid #002C40;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
