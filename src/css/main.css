@@ -15,15 +15,20 @@ body {
 .avant-block-settings--color_dark-blue {
     color: #024A6E;
 }
+.avant-block-settings--color_white {
+    color: #ffffff;
+}
 .avant-block-settings--divider {
     width: 140px;
     border: 1px solid #024A6E;
     margin-left: auto;
     margin-right: auto;
 }
-.avant-block-settings--paddings {
-    padding-top: 40px;
+.avant-block-settings--padding_bottom {
     padding-bottom: 40px;
+}
+.avant-block-settings--padding_top {
+    padding-top: 40px;
 }
 
 .avant-header {
@@ -58,14 +63,16 @@ body {
     min-height: 640px;
 }
 
+
 .avant-services__title {
     font-size: 40px;
 }
+.avant-services__services-holder {
+    background: #05849D;
+    padding-bottom: 40px;
+}
 .avant-services__icon-wrapper {
-    border: 1px solid #024A6E;
-    width: 100px;
     height: 100px;
-    border-radius: 50%;
     margin: 40px auto 20px auto;
 }
 .avant-services__icon--weight {
