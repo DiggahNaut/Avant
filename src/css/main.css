@@ -24,33 +24,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.avant-block-settings--padding_bottom {
-    padding-bottom: 40px;
-}
-.avant-block-settings--padding_top {
-    padding-top: 40px;
-}
 
-.avant-header {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-}
-.avant-header__logo {
-    background: url("/src/images/Logo.png") center no-repeat;
-    width: 201px;
-    height: 80px;
-}
-.avant-header__info {
-    text-align: right;
-    width: 428px;
-}
-.avant-header__phone {
-    font-size: 34px;
-}
-.avant-other-info {
-    font-size: 18px;
-}
 .avant-other-info__email {
     display: block;
 }
@@ -96,32 +70,9 @@ ol.carousel-indicators li.active {
     background: #05849D;
 }
 
-.avant-services__title {
-    font-size: 40px;
-}
 .avant-services__services-holder {
     background: #05849D;
     padding-bottom: 40px;
-}
-.avant-services__icon-wrapper {
-    height: 100px;
-    margin: 40px auto 20px auto;
-}
-.avant-services__icon--weight {
-    background: url("/src/images/WeightService.png") center no-repeat;
-}
-.avant-services__icon--money {
-    background: url("/src/images/MoneyService.png") center no-repeat;
-}
-.avant-services__icon--forklift {
-    background: url("/src/images/ForkLiftService.png") center no-repeat;
-}
-.avant-services__icon--car-loader {
-    background: url("/src/images/CarLoaderService.png") center no-repeat;
-}
-.avant-services__service-title {
-    font-weight: bold;
-    font-size: 22px;
 }
 
 .avant-price {
@@ -132,14 +83,8 @@ ol.carousel-indicators li.active {
     background: url("/src/images/GarbageBackground.png") center no-repeat;
     min-height: 490px;
 }
-.avant-price__title {
-    font-size: 40px;
-}
-.avant-price--font_size-m {
-    font-size: 24px;
-}
-.avant-price__metal {
-    padding-top: 40px;
+.avant-price__type--height {
+    height: 36px;
 }
 .avant-price__price {
     color: white;
@@ -169,32 +114,188 @@ ol.carousel-indicators li.active {
     text-align: center;
     padding-top: 30px;
 }
-.avant-footer__phones {
-    font-size: 50px;
-    line-height: 70px;
-    padding-top: 30px;
+
+@media (max-width: 600px) {
+    .avant-header {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+    }
+    .avant-header__info {
+        text-align: right;
+        width: 230px;
+    }
+    .avant-header__logo {
+        background: url("/src/images/Logo.png") center no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 40px;
+    }
+    .avant-header__phone {
+        font-size: 17px;
+    }
+    .avant-other-info {
+        font-size: 15px;
+    }
+    .avant-services__title {
+        font-size: 20px;
+    }
+    .avant-services__service-title {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .avant-services__icon-wrapper {
+        height: 50px;
+        margin: 20px auto 10px auto;
+    }
+    .avant-services__icon--weight {
+        background: url("/src/images/WeightService.png") center no-repeat;
+        background-size: 50px;
+    }
+    .avant-services__icon--money {
+        background: url("/src/images/MoneyService.png") center no-repeat;
+        background-size: 50px;
+    }
+    .avant-services__icon--forklift {
+        background: url("/src/images/ForkLiftService.png") center no-repeat;
+        background-size: 50px;
+    }
+    .avant-services__icon--car-loader {
+        background: url("/src/images/CarLoaderService.png") center no-repeat;
+        background-size: 50px;
+    }
+    .avant-block-settings--padding_bottom {
+        padding-bottom: 20px;
+    }
+    .avant-block-settings--padding_top {
+        padding-top: 20px;
+    }
+    .avant-price__title {
+        font-size: 20px;
+    }
+    .avant-price__metal {
+        padding-top: 20px;
+    }
+    .avant-price--font_size-m {
+        font-size: 20px;
+    }
+    .avant-footer__phones {
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 15px;
+    }
+    .avant-footer__button {color: #024A6E;
+        font-size: 26px;
+        padding-top: 3px;
+        background-color: white;
+        border-radius: 35px;
+        width: 300px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        font-weight: bold;
+    }
+    .avant-footer__ooo-info {
+        font-size: 15px;
+        line-height: 23px;
+        border-top: 1px solid #002C40;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .avant-footer__phones-divider {
+        display: none;
+    }
 }
-.avant-footer__phones-divider {
-    width: 50px;
-    display: inline-block;
+
+@media (min-width: 601px) {
+    .avant-header {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    .avant-header__info {
+        text-align: right;
+        width: 428px;
+    }
+    .avant-header__logo {
+        background: url("/src/images/Logo.png") center no-repeat;
+        width: 201px;
+        height: 80px;
+    }
+    .avant-header__phone {
+        font-size: 34px;
+    }
+    .avant-other-info {
+        font-size: 18px;
+    }
+    .avant-services__title {
+        font-size: 40px;
+    }
+    .avant-services__service-title {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .avant-services__icon-wrapper {
+        height: 100px;
+        margin: 40px auto 20px auto;
+    }
+    .avant-services__icon--weight {
+        background: url("/src/images/WeightService.png") center no-repeat;
+    }
+    .avant-services__icon--money {
+        background: url("/src/images/MoneyService.png") center no-repeat;
+    }
+    .avant-services__icon--forklift {
+        background: url("/src/images/ForkLiftService.png") center no-repeat;
+    }
+    .avant-services__icon--car-loader {
+        background: url("/src/images/CarLoaderService.png") center no-repeat;
+    }
+    .avant-block-settings--padding_bottom {
+        padding-bottom: 40px;
+    }
+    .avant-block-settings--padding_top {
+        padding-top: 40px;
+    }
+    .avant-price__title {
+        font-size: 40px;
+    }
+    .avant-price__metal {
+        padding-top: 40px;
+    }
+    .avant-price--font_size-m {
+        font-size: 24px;
+    }
+    .avant-footer__phones {
+        font-size: 50px;
+        line-height: 70px;
+        padding-top: 30px;
+    }
+    .avant-footer__button {color: #024A6E;
+        font-size: 26px;
+        padding-top: 6px;
+        background-color: white;
+        border-radius: 35px;
+        width: 300px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+        font-weight: bold;
+    }
+    .avant-footer__ooo-info {
+        font-size: 20px;
+        line-height: 23px;
+        border-top: 1px solid #002C40;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .avant-footer__phones-divider {
+        width: 50px;
+        display: inline-block;
+    }
 }
-.avant-footer__button {color: #024A6E;
-    font-size: 26px;
-    padding-top: 6px;
-    background-color: white;
-    border-radius: 35px;
-    width: 300px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px auto;
-    font-weight: bold;
-}
-.avant-footer__ooo-info {
-    font-size: 20px;
-    line-height: 23px;
-    border-top: 1px solid #002C40;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
