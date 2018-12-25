@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/src/css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="container">
         <div class="avant-header">
@@ -36,21 +37,97 @@
         </div>
     </div>
 
-    <div class="avant-slider container-fluid">
-        <div class="row">
-            <div class="col-2">
-                left-button
-            </div>
+    <!--<div class="avant-slider container-fluid">-->
+        <!--<div class="row">-->
+            <!--<div class="col-2">-->
+                <!--left-button-->
+            <!--</div>-->
 
-            <div class="col-8" style="color: #ffffff;">
-                Скупаем лом черных и цветных металлов
+            <!--<div class="col-8" style="color: #ffffff;">-->
+                <!--Скупаем лом черных и цветных металлов-->
 
-                Оставить запрос
-            </div>
+                <!--Оставить запрос-->
+            <!--</div>-->
 
-            <div class="col-2">
-                right button
+            <!--<div class="col-2">-->
+                <!--right button-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <div class="avant-slider-size__height">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <!-- Индикаторы -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active">
+
+                </li>
+
+                <li data-target="#carousel" data-slide-to="1">
+
+                </li>
+
+                <li data-target="#carousel" data-slide-to="2">
+
+                </li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="avant-slider avant-slider__first-slide">
+
+                    </div>
+
+                    <div class="carousel-caption">
+                        <p>
+                            первый слайд епты
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="avant-slider avant-slider__second-slide">
+
+                    </div>
+
+                    <div class="carousel-caption">
+                        <p>
+                            второй слайд епты
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="avant-slider avant-slider__third-slide">
+
+                    </div>
+                    <div class="carousel-caption">
+                        <p>
+                            третий слайд епты
+                        </p>
+                    </div>
+                </div>
             </div>
+            <!-- Элементы управления -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+
+                </span>
+
+                <span class="sr-only">
+                    Предыдущий
+                </span>
+            </a>
+
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+
+                </span>
+
+                <span class="sr-only">
+                    Следующий
+                </span>
+            </a>
         </div>
     </div>
 
@@ -354,5 +431,9 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
